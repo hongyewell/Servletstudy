@@ -22,7 +22,7 @@ public class HelloServlet extends GenericServlet {
 	@Override
 	public void service(ServletRequest req, ServletResponse resp) throws ServletException, IOException {
  
-		resp.getOutputStream().write("hello servlet!!!!".getBytes());
+		resp.getOutputStream().write("hello servlet!!!!".getBytes());//向浏览器输出"hello servlet"字节流
 		
 	}
 

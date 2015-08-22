@@ -9,17 +9,74 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
- 
- <!-- 配置HelloServlet的对外访问路径 -->
   <servlet>
-  	<servlet-name>HelloServlet</servlet-name>
-  	<servlet-class> com.hongyewell.servlet.HelloServlet </servlet-class>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class> com.hongyewell.servlet.HelloServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/HelloServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/aa</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/index.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletDemo2</display-name>
+    <servlet-name>ServletDemo2</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletDemo2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletDemo2</servlet-name>
+    <url-pattern>/ServletDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletDemo3</display-name>
+    <servlet-name>ServletDemo3</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletDemo3</servlet-class>  
+    <init-param>
+    	<param-name>data1</param-name>
+    	<param-value>heheda111</param-value>
+    </init-param> 
+    
+      <init-param>
+    	<param-name>data2</param-name>
+    	<param-value>heheda222</param-value>
+    </init-param>
+    
+      <init-param>
+    	<param-name>data3</param-name>
+    	<param-value>heheda333</param-value>
+    </init-param>
+    
+    <init-param>
+    	<param-name>charset</param-name>
+    	<param-value>UTF-8</param-value>
+    </init-param>
+    
+    <init-param>
+    	<param-name>url</param-name>
+    	<param-value>jdbc:mysql://localhost:3306/test</param-value>
+    </init-param>
+    
+     <init-param>
+    	<param-name>username</param-name>
+    	<param-value>root</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>password</param-name>
+    	<param-value>root</param-value>
+    </init-param>
   </servlet>
   
   <servlet-mapping>
-  	<servlet-name>HelloServlet</servlet-name>
-  	<url-pattern>/HelloServlet</url-pattern>
+    <servlet-name>ServletDemo3</servlet-name>
+    <url-pattern>/ServletDemo3</url-pattern>
   </servlet-mapping>
-  
-  
 </web-app>

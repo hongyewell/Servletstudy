@@ -39,44 +39,68 @@
     <description></description>
     <display-name>ServletDemo3</display-name>
     <servlet-name>ServletDemo3</servlet-name>
-    <servlet-class>com.hongyewell.servlet.ServletDemo3</servlet-class>  
+    <servlet-class>com.hongyewell.servlet.ServletDemo3</servlet-class>
     <init-param>
-    	<param-name>data1</param-name>
-    	<param-value>heheda111</param-value>
-    </init-param> 
-    
-      <init-param>
-    	<param-name>data2</param-name>
-    	<param-value>heheda222</param-value>
-    </init-param>
-    
-      <init-param>
-    	<param-name>data3</param-name>
-    	<param-value>heheda333</param-value>
-    </init-param>
-    
-    <init-param>
-    	<param-name>charset</param-name>
-    	<param-value>UTF-8</param-value>
-    </init-param>
-    
-    <init-param>
-    	<param-name>url</param-name>
-    	<param-value>jdbc:mysql://localhost:3306/test</param-value>
-    </init-param>
-    
-     <init-param>
-    	<param-name>username</param-name>
-    	<param-value>root</param-value>
+      <param-name>data1</param-name>
+      <param-value>heheda111</param-value>
     </init-param>
     <init-param>
-    	<param-name>password</param-name>
-    	<param-value>root</param-value>
+      <param-name>data2</param-name>
+      <param-value>heheda222</param-value>
+    </init-param>
+    <init-param>
+      <param-name>data3</param-name>
+      <param-value>heheda333</param-value>
+    </init-param>
+    <init-param>
+      <param-name>charset</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+    <init-param>
+      <param-name>url</param-name>
+      <param-value>jdbc:mysql://localhost:3306/test</param-value>
+    </init-param>
+    <init-param>
+      <param-name>username</param-name>
+      <param-value>root</param-value>
+    </init-param>
+    <init-param>
+      <param-name>password</param-name>
+      <param-value>root</param-value>
     </init-param>
   </servlet>
-  
   <servlet-mapping>
     <servlet-name>ServletDemo3</servlet-name>
     <url-pattern>/ServletDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletContextDemo</display-name>
+    <servlet-name>ServletContextDemo</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletContextDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletContextDemo</servlet-name>
+    <url-pattern>/ServletContextDemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletContextDemo2</display-name>
+    <servlet-name>ServletContextDemo2</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletContextDemo2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletContextDemo2</servlet-name>
+    <url-pattern>/ServletContextDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletProperties</display-name>
+    <servlet-name>ServletProperties</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletProperties</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletProperties</servlet-name>
+    <url-pattern>/ServletProperties</url-pattern>
   </servlet-mapping>
 </web-app>

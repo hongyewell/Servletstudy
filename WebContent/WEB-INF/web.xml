@@ -103,4 +103,14 @@
     <servlet-name>ServletProperties</servlet-name>
     <url-pattern>/ServletProperties</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletResponse</display-name>
+    <servlet-name>ServletResponse</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletResponse</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletResponse</servlet-name>
+    <url-pattern>/ServletResponse</url-pattern>
+  </servlet-mapping>
 </web-app>

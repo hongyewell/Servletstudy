@@ -113,4 +113,14 @@
     <servlet-name>ServletResponse</servlet-name>
     <url-pattern>/ServletResponse</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletDownLoad</display-name>
+    <servlet-name>ServletDownLoad</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletDownLoad</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletDownLoad</servlet-name>
+    <url-pattern>/ServletDownLoad</url-pattern>
+  </servlet-mapping>
 </web-app>

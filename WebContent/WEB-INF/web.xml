@@ -133,4 +133,24 @@
     <servlet-name>ServletRequestDemo</servlet-name>
     <url-pattern>/ServletRequestDemo</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletRequestDemo2</display-name>
+    <servlet-name>ServletRequestDemo2</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletRequestDemo2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletRequestDemo2</servlet-name>
+    <url-pattern>/ServletRequestDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletRequestDemo3</display-name>
+    <servlet-name>ServletRequestDemo3</servlet-name>
+    <servlet-class>com.hongyewell.servlet.ServletRequestDemo3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletRequestDemo3</servlet-name>
+    <url-pattern>/ServletRequestDemo3</url-pattern>
+  </servlet-mapping>
 </web-app>
